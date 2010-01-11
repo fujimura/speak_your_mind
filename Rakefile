@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "speak_your_mind"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{shoulda(and test/unit) with rspec-ish friendly output}
+    gem.description = %Q{Shoulda(or plain Test::Unit) speaks to you more friendly in terminal}
     gem.email = "ffujimurah@gmail.com"
     gem.homepage = "http://github.com/fujimura/speak_your_mind"
-    gem.authors = ["ffu"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.authors = ["fujimura"]
+    gem.add_development_dependency "redgreen", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
