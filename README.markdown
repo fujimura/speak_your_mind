@@ -2,7 +2,30 @@
 Shoulda/Test::Unit with rspec-like output. 
 
 ## Usage
-`require 'speak_your_mind` and run test
+`require 'speak_your_mind` in test_helper and run them.
+if the test code was 
+`  context "Test" do
+
+    should 'success' do 
+      assert true 
+    end 
+
+    should 'fail' do 
+      assert false 
+    end 
+
+    should 'error' do 
+      raise
+    end 
+`
+, will get 
+
+`
+E Test should error.
+F Test should fail.
+. Test should success.
+`
+with color.
 
 ## Installation
 gem install speak_your_mind
