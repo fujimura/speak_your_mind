@@ -1,5 +1,5 @@
 # speak_your_mind
-Shoulda/Test::Unit with rspec-like output. 
+rspec-like output for Shoulda/Test::Unit. 
 
 ## Usage
 `require 'speak_your_mind` in test_helper and run them.

@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "speak_your_mind"
-    gem.summary = %Q{shoulda(and test/unit) with rspec-ish friendly output}
+    gem.summary = %Q{rspec-ish friendly output for shoulda and test/unit}
     gem.description = %Q{Shoulda(or plain Test::Unit) speaks to you more friendly in terminal}
     gem.email = "ffujimurah@gmail.com"
     gem.homepage = "http://github.com/fujimura/speak_your_mind"
