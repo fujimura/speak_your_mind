@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/speak_your_mind.rb",
+     "speak_your_mind.gemspec",
      "test/helper.rb",
      "test/test_speak_your_mind.rb"
   ]
